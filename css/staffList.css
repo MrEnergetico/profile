@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+body {
+	background-image: url("../img/sfondi/sfondo1.gif");
+ 	background-repeat:no-repeat;
+	background-size:cover;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+/*-----------------------------------------------------*/
+#button {
+    background-color: rgba(255,255,255,0.3);
+    color: white;
+    width: 500px;
+    height: 50px;
+    padding: 400px, 400px;
+    position:absolute;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+#button:hover {
+    transform: scale(1.2);
+    background-color: rgba(255,255,255,0.3);
+}
+#button:active {
+    transform: scale(1.1);
+    background-color: rgba(255,255,255,0.3);
+}
+/*-----------------------------------------------------*/

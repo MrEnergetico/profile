@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+body {
+	background-image: url("../img/sfondi/sfondo1.gif");
+ 	background-repeat:no-repeat;
+	background-size:cover;
+} 
+.cartello{
+    height: 200px;
+    width: 300px;
+}
+
+#button1 {
+    background-color: rgba(255,255,255,0.3);
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding: 400px, 400px;
+    top: 120px;
+    left: 350px;
+    position:absolute;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 8px;
+}
+#button1:hover {
+    transform: scale(1.2);
+    background-color: rgba(255,255,255,0.3);
+}
+#button1:active {
+    transform: scale(1.1);
+    background-color: rgba(255,255,255,0.3);
+}
+
+#button2 {
+    background-color: rgba(255,255,255,0.3);
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding: 400px, 400px;
+    top: 120px;
+    left: 580px;
+    position:absolute;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 8px;
+}
+#button2:hover {
+    transform: scale(1.2);
+    background-color: rgba(255,255,255,0.3);
+}
+#button2:active {
+    transform: scale(1.1);
+    background-color: rgba(255,255,255,0.3);
+}
+
+#button3 {
+    background-color: rgba(255,255,255,0.3);
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding: 400px, 400px;
+    top: 120px;
+    left: 810px;
+    position:absolute;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 8px;
+}
+#button3:hover {
+    transform: scale(1.2);
+    background-color: rgba(255,255,255,0.3);
+}
+#button3:active {
+    transform: scale(1.1);
+    background-color: rgba(255,255,255,0.3);
+}
+.typewrite {
+    padding-bottom: 2%;
+    display: block;
+    align-items: center;
+    text-align: left;
+    font-size: 50px;
+    color: #9e9d9d;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+

@@ -18,7 +18,7 @@ body {
     padding-top: 25px;
 }
 /*------------------------------------------*/
-#button {
+#home {
     background-color: rgba(255,255,255,0.3);
     color: white;
     width: 50px;
@@ -34,4 +34,12 @@ body {
     border-radius: 8px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+}
+#home:hover {
+    transform: scale(1.2);
+    background-color: rgba(255,255,255,0.3);
+}
+#home:active {
+    transform: scale(1.1);
+    background-color: rgba(255,255,255,0.3);
 }

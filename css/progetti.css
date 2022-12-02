@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+	background-color: rgb(255, 136, 0);
+}
+/*----------*/
+.popup{
+	width: 200px;
+	height: 400px;
+	background: #fefefe;
+	margin: 40px auto;
+	padding: 10px 20px;
+	position: relative;
+	color: #333;
+}
+
+.overlay{
+	position: fixed; /* schermo intero*/
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  height: 100vh;
+	background: rgba(0,0,0,0.7); /* colore sfondo e opcità */
+	text-align: center;
+	display: none; /*cambiaremo in display: none*/
+}
+
+#close{
+	position: absolute;
+	top: -20px;
+	right: -20px;
+	color: #fff;
+}
+
+#close:hover{
+	cursor: pointer;
+}
+/*----------*/
+.container {
+    background-color: rgba(255,255,255,0.3);
+    display: flex;
+    width: 420px;
+    height: 200px;
+    border-radius: 10px;
+	margin-top: 30px;
+}
+.titolo{
+	color: black;
+	font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.descrizione{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+	color: #333;	
+	margin-top: 60px;
+	margin-left: -80px;
+}
+.altro{
+	background-color: rgba(255, 242, 0, 0.923);
+    color: white;
+	height: 40px;
+	width: 200px;
+	border-radius: 10px;
+	align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.altro:hover {
+    transform: scale(1.2);
+    background-color: rgba(255, 242, 0, 0.923);
+}
+.altro:active {
+    transform: scale(1.1);
+    background-color: rgba(255, 242, 0, 0.923);
+}
+/*------*/
+#home {
+    background-color: rgba(255,255,255,0.3);
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 400px, 400px;
+    position:absolute;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+	margin-left: 50px;
+}
+#home:hover {
+    transform: scale(1.2);
+    background-color: rgba(255,255,255,0.3);
+}
+#home:active {
+    transform: scale(1.1);
+    background-color: rgba(255,255,255,0.3);
+}

@@ -1,25 +1,17 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Itim', cursive;
-}
 body {
-	background-image: url("../img/sfondi/sfondo1.gif");
- 	background-repeat:no-repeat;
-	background-size:cover;
+    background-image: url("../img/sfondi/sfondo1.gif");
+    background-size: cover;
 }
-.main {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-/*-----------------------------------------------------*/
-#button {
+
+/*-------*/
+#button1 {
     background-color: rgba(255,255,255,0.3);
     color: white;
-    width: 500px;
+    width: 400px;
     height: 50px;
     padding: 400px, 400px;
+    top: 120px;
+    left: 350px;
     position:absolute;
     cursor: pointer;
     align-items: center;
@@ -28,24 +20,25 @@ body {
     justify-content: center;
     justify-items: center;
     border-radius: 8px;
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
-#button:hover {
+#button1:hover {
     transform: scale(1.2);
     background-color: rgba(255,255,255,0.3);
 }
-#button:active {
+#button1:active {
     transform: scale(1.1);
     background-color: rgba(255,255,255,0.3);
 }
-/*-----------------------------------------------------*/
-#home {
+/*------------*/
+#button2 {
     background-color: rgba(255,255,255,0.3);
     color: white;
     width: 50px;
     height: 50px;
-    padding: 400px, 400px;
+    top: 50px;
+    left: 50px;
     position:absolute;
     cursor: pointer;
     align-items: center;
@@ -54,15 +47,14 @@ body {
     justify-content: center;
     justify-items: center;
     border-radius: 8px;
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
-#home:hover {
+#button2:hover {
     transform: scale(1.2);
     background-color: rgba(255,255,255,0.3);
 }
-#home:active {
+#button2:active {
     transform: scale(1.1);
     background-color: rgba(255,255,255,0.3);
 }
-

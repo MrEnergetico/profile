@@ -1,0 +1,38 @@
+* {
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+background-color: black;
+height: 100px;
+display: flex;
+padding: 0px;
+}
+
+.name{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    font-size: 60px;
+    margin-top: 13px ;
+    padding-left: 50px;
+    animation: colorname 5s infinite;
+}
+
+@keyframes colorname {
+    0% {color: rgb(51,153,255)}
+    25% {color: rgb(143,206,0)}
+    50% {color: rgb(255,165,0)}
+    90%{color: rgb(106,50,159)}
+    100% {color: rgb(51,153,255)}
+}
+
+.section{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(83, 83, 83);
+    margin-top: 50px;
+    margin-left: 35%;
+    border-radius: 30px;
+}

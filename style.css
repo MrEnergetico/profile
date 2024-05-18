@@ -14,7 +14,7 @@
     
     .boxBadge  {
         width: 320px;
-        height: 50px;
+        height: 70px;
         background-color: rgba(17, 17, 17, 0.3);
         backdrop-filter: blur(10px);
         margin-top: 50px;
@@ -24,10 +24,10 @@
     }
     
     .badge{
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
         margin-top: 10px;
-        margin-left: 16px;
+        margin-left: 11px;
     }
     
     .boxProfile {
@@ -81,10 +81,10 @@
     }
     
     #link {
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
         margin-top: 50px;
-        margin-left: 16px;
+        margin-left: 11px;
     }
     
     #link:hover {
